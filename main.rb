@@ -63,28 +63,73 @@ true
 # puts "Hello ".concat("How are you...");
 
 
-str6 = "Hi"
-puts str6
-#str6 = str6 << "again" #append
+# str6 = "Hi"
+# puts str6
+# #str6 = str6 << "again" #append
 
-puts str6
+# puts str6
 
 #str6.freeze #unable to modify
-str6 = str6 << "again"
+# str6 = str6 << "again"
 
-puts "abc" == "abc"
-puts "abc".eql? "123"
+# puts "abc" == "abc"
+# puts "abc".eql? "123"
 
 
-msg = "Hello from Automation step by step"
-puts msg
+# msg = "Hello from Automation step by step"
+# puts msg
 
-puts msg["Hello"]
+# puts msg["Hello"]
 
-puts msg[0]
-puts msg[0, 4]
-puts msg[0, 20]
-puts msg[0, msg.length]
-puts msg[-4]
-puts msg.length
+# puts msg[0]
+# puts msg[0, 4]
+# puts msg[0, 20]
+# puts msg[0, msg.length]
+# puts msg[-4]
+# puts msg.length
 
+#OPERATORS
+
+# puts 10 + 20
+# puts 20 - 10
+# puts 20 / 10
+# puts 7 % 3
+# puts 1**4
+
+# puts (2 == 3) 
+
+# puts(2 != 3)
+# puts (2 >=3)
+
+# a = 10
+# b = 20
+
+# c = (a > b) ? a : b
+
+# puts "Greater num is #{c}" #Ternary Operator
+
+
+#ARRAYS
+
+arr1 = [1, 2, 3, 4, 5]
+arr2 = Array.new(9)
+
+# puts arr1.size
+# puts arr2.length
+
+# puts arr1.at(2)
+
+# puts arr1.fetch(1)
+
+puts arr1.first
+
+puts arr1.last
+
+puts arr1.take(2)
+
+print arr1.push(6)
+print arr1 << (7)
+print arr1.unshift(0)
+print arr1.insert(3, 4)
+
+puts 
