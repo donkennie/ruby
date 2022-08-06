@@ -111,25 +111,49 @@ true
 
 #ARRAYS
 
-arr1 = [1, 2, 3, 4, 5]
+arr1 = [1, 2, 3, 4, 2, 5]
 arr2 = Array.new(9)
 
-# puts arr1.size
-# puts arr2.length
+puts arr1.size
+puts arr2.length
 
-# puts arr1.at(2)
+puts arr1.at(2)
 
-# puts arr1.fetch(1)
+puts arr1.fetch(1)
 
 puts arr1.first
 
 puts arr1.last
 
-puts arr1.take(2)
+puts arr1.take(2) #return the first n elements of an array
 
-print arr1.push(6)
-print arr1 << (7)
-print arr1.unshift(0)
-print arr1.insert(3, 4)
+print arr1.push(6) #to add to the items to the end of an array
+puts
+
+print arr1 << (7) # add to the end 
+puts
+
+print arr1.unshift(0) # add to the start
+puts
+
+print arr1.insert(3, 9) # add to the specific location
 
 puts 
+
+puts arr1
+
+print arr1.drop(5) #return elements after n elements have been dropped
+puts
+
+print arr1.pop(5) #start removing from the end
+puts
+
+print arr1.shift(5) #remove from the start
+
+print arr1.delete(3) #remove the specific item
+puts
+
+print arr1
+puts
+
+print arr1.uniq # remove any duplicate items
