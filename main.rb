@@ -157,3 +157,8 @@ print arr1
 puts
 
 print arr1.uniq # remove any duplicate items
+
+
+#\ back slash is used to escape special character
+
+puts 'He said, \'it is fine\''
