@@ -9,10 +9,31 @@
 
 #WORKING WITH NUMBERS
 
-puts "I am a line"
-puts "-" * 20
-puts "I am a diff line after a divider"
+# puts "I am a line"
+# puts "-" * 20
+# puts "I am a diff line after a divider"
 
-20.times{print "-"}
+# 20.times{print "-"}
 
-20.times{puts rand(10)}
+#20.times{puts rand(10)}
+
+#puts rand(12)
+
+puts "\nRuby script begins executing."
+
+num = 5
+
+if ( num == 10 )
+
+puts "\nIf block activated because num = #{ num } "
+puts "\nCondition of if statement was num == 10"
+puts "\nAnother statement under if block"
+
+else
+puts "\nElse block activated because num = #{ num } "
+puts "\nCondition of if statement was num == 10 which evaluated to false"
+puts "\nAnother statement under if block"
+
+end
+
+puts "\nRuby script ends here."
